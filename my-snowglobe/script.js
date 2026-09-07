@@ -3,12 +3,12 @@ const button = document.querySelector("#shake");
 const message = document.querySelector("#message");
 
 const messages = [
-  "you are someone's favourite person to sit next to.",
-  "the thing you are building counts, even half finished.",
-  "you are allowed to be a beginner for as long as you need.",
-  "someone is going to love what you make with this.",
-  "hot chocolate tastes better after a hard day. you've earned one.",
-  "you ask good questions. that is the whole skill.",
+  "you are the brightest star in someone's darkest nights.",
+  "You are allowed to be a work in progress, and a masterpeice simultaneously.",
+  "Honey, you'll move mountains. So keep at it.",
+  "You are not a drop in the ocean. You are the entire ocean in a drop.",
+  "What we give doesn't always return. But what we give is what we are.",
+  "Hey little soldier, you are smashing it.",
 ];
  
 
