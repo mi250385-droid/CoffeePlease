@@ -1,21 +1,24 @@
 body {
     margin: 0;
     color: #162d4f;
-    background: linear-gradient(#e6f4ff, #ffffff);
+    background: linear-gradient(160deg, #f3b1a6, #efd0cf, #d8bfd1);
     font-family: "Libre Caslon Text", Georgia, serif;
 }
 
 h1 {
-    color: #235fd4;
-    font-size: 2.5rem;
+    color: #fff8ed;
+    font-size: 3rem;
+    text-shadow: 0 3px 15px rgba(75, 48, 68, 0.2)
 }
 
 .tagline {
-    color: #df5034;
+    color: #70475d;
+    font-style: italic;
+    font-size: 1.15rem;
 }
 
 .hero {
-    padding: 3rem 1rem 1rem;
+    padding: 3rem 1rem 2rem;
     text-align: center;
 }
 
@@ -26,13 +29,16 @@ main {
 }
 
 .globe-card {
-    background: #fdf7e8;
-    border: 2px solid #235fd4;
-    padding: 2rem;
+    background: rgba(255, 244, 238, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    padding: 2.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.25rem;
+    box-shadow: 0 15px 40px rgba(75, 48, 68, 0.15);
+    backdrop-filter: blur(10px)
 }
 
 #message {
@@ -40,13 +46,14 @@ main {
 }
 
 .globe {
-    width: 12rem;
-    height: 12rem;
+    width: 18rem;
+    height: 18rem;
     border-radius: 50%;
-    background: radial-gradient(circle at 30% 25%, #ffffff, #cfe6ff 65%, #9dc4ef);
+    background: radial-gradient(circle at 30% 25%, #ffffff, #f5d8d5 60%, #c49bb3);
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 7px solid rgba(255, 250, 240, 0.8), inset 0 0 25px rgba(255, 255, 255, 0.4);
 }
 
 .scene {
@@ -55,17 +62,19 @@ main {
 
 button {
     font: inherit;
-    color: #ffffff;
-    background: #df5034;
+    color: #fff8ed;
+    background: #74475e;
     border: none;
-    padding: 0.75rem 1.5rem;
+    border-radius: 999px;
+    padding: 0.8rem 1.6rem;
     cursor: pointer;
+    box-shadow: 0 7px 18px rgba(75, 48, 68, 0.2);
     transition: background 150ms ease, transform 150ms ease;
 }
 
 button:hover {
-    background: #a43835;
-    transform: scale(1.05);
+    background: #603b50;
+    transform: translateY(-3px);
 }
 
 @keyframes shake {
